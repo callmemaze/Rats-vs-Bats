@@ -1,0 +1,4 @@
+test,stat,p,coef
+chi2_vigilance_rat,0.0,1.0,
+anova_bat_season,,0.0056768922134641814,
+reg_rat_food,,0.009977830479369103,-0.31174637639478775
