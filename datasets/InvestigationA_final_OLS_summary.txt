@@ -4,7 +4,7 @@ Dep. Variable:     bat_landing_to_food   R-squared:                       0.099
 Model:                             OLS   Adj. R-squared:                  0.097
 Method:                  Least Squares   F-statistic:                     39.74
 Date:                 Thu, 16 Oct 2025   Prob (F-statistic):           4.24e-17
-Time:                         01:04:31   Log-Likelihood:                -3212.1
+Time:                         02:04:31   Log-Likelihood:                -3212.1
 No. Observations:                  725   AIC:                             6430.
 Df Residuals:                      722   BIC:                             6444.
 Df Model:                            2                                         

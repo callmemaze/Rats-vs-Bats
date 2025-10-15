@@ -4,7 +4,7 @@ Dep. Variable:                  y_log   R-squared:                       0.448
 Model:                            OLS   Adj. R-squared:                  0.387
 Method:                 Least Squares   F-statistic:                     7.349
 Date:                Thu, 16 Oct 2025   Prob (F-statistic):           3.52e-57
-Time:                        01:04:31   Log-Likelihood:                -1105.1
+Time:                        02:07:55   Log-Likelihood:                -1105.1
 No. Observations:                 866   AIC:                             2384.
 Df Residuals:                     779   BIC:                             2799.
 Df Model:                          86                                         
@@ -95,20 +95,21 @@ C(habit)[T.rat_disappear]                                                       
 C(habit)[T.rat_pick]                                                                     -0.0645      0.291     -0.221      0.825      -0.636       0.508
 C(habit)[T.rat_pick_and_bat]                                                             -2.7087      0.900     -3.011      0.003      -4.474      -0.943
 C(habit)[T.rat_to_bat]                                                                   -2.0267      0.904     -2.241      0.025      -3.802      -0.252
-rat_activity_index                                                                        0.2416      0.103      2.337      0.020       0.039       0.444
+rat_activity_index                                                                        0.1208      0.052      2.337      0.020       0.019       0.222
 rat_minutes                                                                              -0.2023      0.105     -1.929      0.054      -0.408       0.004
 rat_arrival_number                                                                        0.1111      0.049      2.264      0.024       0.015       0.207
 food_availability                                                                        -0.1084      0.049     -2.195      0.028      -0.205      -0.011
 hours_after_sunset                                                                       -0.0732      0.043     -1.705      0.089      -0.158       0.011
+ratact_x_ratpresent                                                                       0.1208      0.052      2.337      0.020       0.019       0.222
 food_x_season                                                                             0.0920      0.042      2.189      0.029       0.010       0.175
 ==============================================================================
 Omnibus:                        2.883   Durbin-Watson:                   1.935
 Prob(Omnibus):                  0.237   Jarque-Bera (JB):                3.150
 Skew:                          -0.011   Prob(JB):                        0.207
-Kurtosis:                       3.295   Cond. No.                     1.79e+16
+Kurtosis:                       3.295   Cond. No.                     2.10e+16
 ==============================================================================
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The smallest eigenvalue is 6.55e-30. This might indicate that there are
+[2] The smallest eigenvalue is 6.57e-30. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.

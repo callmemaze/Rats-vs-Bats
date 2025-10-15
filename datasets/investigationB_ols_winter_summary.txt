@@ -1,0 +1,51 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  y_log   R-squared:                       0.352
+Model:                            OLS   Adj. R-squared:                  0.243
+Method:                 Least Squares   F-statistic:                     3.227
+Date:                Thu, 16 Oct 2025   Prob (F-statistic):           3.75e-05
+Time:                        02:08:12   Log-Likelihood:                -155.97
+No. Observations:                 140   AIC:                             353.9
+Df Residuals:                     119   BIC:                             415.7
+Df Model:                          20                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+Intercept                       0.5377      0.192      2.806      0.006       0.158       0.917
+C(risk)[T.1]                   -0.6186      0.695     -0.889      0.376      -1.996       0.758
+C(reward)[T.1]                  0.3658      0.409      0.894      0.373      -0.445       1.176
+C(habit)[T.attack_rat]         -1.4604      0.771     -1.895      0.061      -2.987       0.066
+C(habit)[T.bat]                 0.3741      0.487      0.767      0.444      -0.591       1.339
+C(habit)[T.bat_and_rat]        -0.0990      0.770     -0.128      0.898      -1.624       1.426
+C(habit)[T.bat_fight]          -0.8070      0.768     -1.051      0.295      -2.328       0.714
+C(habit)[T.both]                0.9580      1.145      0.837      0.404      -1.308       3.224
+C(habit)[T.fast]               -1.6672      0.531     -3.138      0.002      -2.719      -0.615
+C(habit)[T.gaze]               -1.3371      1.141     -1.172      0.244      -3.596       0.922
+C(habit)[T.pick]               -0.2051      0.549     -0.373      0.710      -1.293       0.883
+C(habit)[T.pick_and_others]     0.6395      0.739      0.865      0.389      -0.824       2.103
+C(habit)[T.pick_bat]            1.2646      0.722      1.751      0.083      -0.165       2.695
+C(habit)[T.pick_rat]            0.3341      0.726      0.460      0.646      -1.103       1.771
+C(habit)[T.rat]                -0.0607      0.260     -0.233      0.816      -0.576       0.454
+C(habit)[T.rat attack]          0.8787      0.778      1.129      0.261      -0.662       2.419
+C(habit)[T.rat_and_no_food]    -0.2669      0.777     -0.343      0.732      -1.806       1.272
+C(habit)[T.rat_and_others]      0.0253      0.789      0.032      0.974      -1.536       1.587
+C(habit)[T.rat_attack]         -1.4407      0.769     -1.874      0.063      -2.963       0.082
+rat_activity_index             -0.0267      0.137     -0.195      0.846      -0.298       0.244
+rat_minutes                     0.1684      0.372      0.452      0.652      -0.569       0.906
+rat_arrival_number              0.3344      0.277      1.206      0.230      -0.215       0.884
+food_availability               0.1744      0.128      1.366      0.174      -0.078       0.427
+hours_after_sunset              0.1616      0.145      1.113      0.268      -0.126       0.449
+ratact_x_ratpresent            -0.0267      0.137     -0.195      0.846      -0.298       0.244
+food_x_season                  -0.9807      0.350     -2.806      0.006      -1.673      -0.289
+==============================================================================
+Omnibus:                       13.686   Durbin-Watson:                   2.169
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.856
+Skew:                           0.784   Prob(JB):                     0.000594
+Kurtosis:                       3.300   Cond. No.                     4.71e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 3.72e-31. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
