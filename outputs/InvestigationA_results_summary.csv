@@ -1,0 +1,2 @@
+final_ols_test_r2,final_ols_rmse,ridge_test_r2,ridge_rmse,lasso_test_r2,lasso_rmse,cv_r2_mean,cv_r2_std,num_obs,final_predictors
+0.064397266542634,18.853246358220584,0.06619116852324558,18.835163307495403,0.06444542054332603,18.852761178513674,-0.06591862015977397,0.3893353609776749,907,"['foraging_efficiency', 'foraging_efficiency_x_risk']"

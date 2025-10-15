@@ -1,0 +1,26 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     bat_landing_to_food   R-squared:                       0.099
+Model:                             OLS   Adj. R-squared:                  0.097
+Method:                  Least Squares   F-statistic:                     39.74
+Date:                 Thu, 16 Oct 2025   Prob (F-statistic):           4.24e-17
+Time:                         01:04:31   Log-Likelihood:                -3212.1
+No. Observations:                  725   AIC:                             6430.
+Df Residuals:                      722   BIC:                             6444.
+Df Model:                            2                                         
+Covariance Type:             nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+const                         12.9342      1.097     11.787      0.000      10.780      15.088
+foraging_efficiency           -5.9239      0.825     -7.184      0.000      -7.543      -4.305
+foraging_efficiency_x_risk     2.3119      1.149      2.012      0.045       0.056       4.568
+==============================================================================
+Omnibus:                      643.899   Durbin-Watson:                   2.021
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15119.891
+Skew:                           4.074   Prob(JB):                         0.00
+Kurtosis:                      23.836   Cond. No.                         2.65
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
